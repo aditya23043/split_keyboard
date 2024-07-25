@@ -13,6 +13,9 @@
 
 ### Keyboard Designing
 - I followed [Joe Scotto's](https://www.youtube.com/@joe_scotto) [video](https://youtu.be/8WXpGTIbxlQ?feature=shared) tutorial on how to design PCB using KiCad and ordered the PCB through [Robu.in](https://robu.in)
+- Gerber File: [Gerber](reversible_20_gerber.zip)
+- PCB: 
+![PCB](imgs/pcb.jpeg)
 
 ### Assembly
 - [Assembly Video](https://youtu.be/sDFPSLh6BhQ?feature=shared)
@@ -29,6 +32,7 @@
     1. I soldered male to male header pins at the bottom of the right half so that I could connect jumper wires between the two halves and since I was using a single mcu, I directly assigned the left 10 switches to 10 gpio pins on the mcu on the right side
     2. My cheap tenting solution was to put this tommy hilfiger tie combo box (which was further vandalised by me because i wanted to test out this 20 key layout using push buttons before ordering the PCB) in between the two halves in order to achieve the perfect tilt angle
     3. But the current state of the keyboard wasn't doing it for me since I had not properly soldered the header pins and some edge pins were disconnecting. Hence, I went down the wireless route.
+- And this was the layout I was using when both the halves were connected : [Layout](https://aditya23043.github.io/kb_layout/)
 ![](imgs/15.jpeg)
 ![](imgs/14.jpeg)
 ![](imgs/12.jpeg)
