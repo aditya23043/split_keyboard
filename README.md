@@ -1,4 +1,5 @@
-<hr>
+<pre>
+```
 This project is licensed under the GNU General Public License v3 (GPL-3.0).
 
 Original Authors:
@@ -8,7 +9,8 @@ Contributors:
 \-
 
 For more information, see the LICENSE file and the GNU General Public License v3.
-<hr>
+```
+</pre>
 
 # Split Ergonomic 20 Key Keyboard
 > NOTE: This project is still a work in progress
