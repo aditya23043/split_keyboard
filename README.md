@@ -26,9 +26,9 @@
 
 ![PCB](imgs/pcb.jpeg)
 
-### Assembly [Assembly Video](https://youtu.be/sDFPSLh6BhQ?feature=shared)
+### Assembly ([ASSEMBLY VIDEO](https://youtu.be/sDFPSLh6BhQ?feature=shared))
 
-![](imgs/25.jpeg)
+![](imgs/25.jpeg){ width=10 }
 ![](imgs/24.jpeg)
 ![](imgs/23.jpeg)
 ![](imgs/26.jpeg)
