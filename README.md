@@ -109,3 +109,315 @@ For more information, see the LICENSE file and the GNU General Public License v3
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/30.jpeg" style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/31.jpeg" style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/32.jpeg" style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+
+<style>
+html {
+    font-family: "Victor Mono";
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #aaa;
+    background-color: #121212;
+}
+
+input {
+    color: #aaa;
+    background-color: #000;
+    width: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Victor Mono";
+    font-weight: 700;
+    padding: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    border: 1px solid #aaa;
+    border-radius: 1rem;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border-spacing: 0.2rem;
+}
+
+td {
+    font-size: 2rem;
+    padding: 0.8rem;
+    border: 3px solid #aaa;
+    border-radius: 1rem;
+    text-align: center;
+    width: 100px;
+    height: 60px;
+}
+
+.layer {
+    color: #000;
+    background-color: #aaa;
+}
+
+.space {
+    border: none;
+}
+</style>
+
+<br>
+<input type="text" name="something" value="">
+<br>
+
+<h2 class="text_center">ALPHA LAYER 1</h2>
+    
+<table class="center">
+    <tr>
+        <td>NUM</td>
+        <td>l</td>
+        <td>g</td>
+        <td>d</td>
+        <td class="space"></td>
+        <td>h</td>
+        <td>u</td>
+        <td>o</td>
+        <td>SYS</td>
+    </tr>
+    <tr>
+        <td>i</td>
+        <td>s</td>
+        <td>r</td>
+        <td>t</td>
+        <td class="space"></td>
+        <td>n</td>
+        <td>e</td>
+        <td>a</td>
+        <td>c</td>
+    </tr>
+    <tr>
+        <td class="space"></td>
+        <td class="space"></td>
+        <td>A2</td>
+        <td><-</td>
+        <td class="space"></td>
+        <td> ─ </td>
+        <td>SYM</td>
+        <td class="space"></td>
+        <td class="space"></td>
+    </tr>
+</table>    
+
+<br>
+<br>
+<br>
+
+<h2 class="text_center">ALPHA LAYER 2</h2>
+
+<table class="center">
+    <tr>
+        <td>Esc</td>
+        <td>v</td>
+        <td>w</td>
+        <td>m</td>
+        <td class="space"></td>
+        <td>k</td>
+        <td>'</td>
+        <td>z</td>
+        <td>"</td>
+    </tr>
+    <tr>
+        <td>q</td>
+        <td>f</td>
+        <td>p</td>
+        <td>b</td>
+        <td class="space"></td>
+        <td>j</td>
+        <td>,</td>
+        <td>x</td>
+        <td>y</td>
+    </tr>
+    <tr>
+        <td class="space"></td>
+        <td class="space"></td>
+        <td class="layer">A2</td>
+        <td> </td>
+        <td class="space"></td>
+        <td>Caps</td>
+        <td>Tab</td>
+        <td class="space"></td>
+        <td class="space"></td>
+    </tr>
+</table>    
+
+<br>
+<br>
+<br>
+
+<h2 class="text_center">NUMBER LAYER</h2>
+
+<table class="center">
+    <tr>
+        <td class="layer">NUM</td>
+        <td> </td>
+        <td>+</td>
+        <td>-</td>
+        <td class="space"></td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td> </td>
+        <td> </td>
+        <td>/</td>
+        <td>*</td>
+        <td class="space"></td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td class="space"></td>
+        <td class="space"></td>
+        <td>=</td>
+        <td>.</td>
+        <td class="space"></td>
+        <td>9</td>
+        <td>0</td>
+        <td class="space"></td>
+        <td class="space"></td>
+    </tr>
+</table>    
+
+<br>
+<br>
+<br>
+
+<h2 class="text_center">SYMBOL LAYER</h2>
+
+<table class="center">
+    <tr>
+        <td>/</td>
+        <td>?</td>
+        <td>#</td>
+        <td>:</td>
+        <td class="space"></td>
+        <td>(</td>
+        <td>)</td>
+        <td>[</td>
+        <td>]</td>
+    </tr>
+    <tr>
+        <td>~</td>
+        <td>_</td>
+        <td>!</td>
+        <td>;</td>
+        <td class="space"></td>
+        <td>{</td>
+        <td>}</td>
+        <td><</td>
+        <td>></td>
+    </tr>
+    <tr>
+        <td class="space"></td>
+        <td class="space"></td>
+        <td>SYM2</td>
+        <td>%</td>
+        <td class="space"></td>
+        <td class="layer">SYM</td>
+        <td> </td>
+        <td class="space"></td>
+        <td class="space"></td>
+    </tr>
+</table>    
+
+<br>
+<br>
+<br>
+
+<h2 class="text_center">SYMBOL LAYER 2</h2>
+
+<table class="center">
+    <tr>
+        <td>`</td>
+        <td>@</td>
+        <td>#</td>
+        <td>$</td>
+        <td class="space"></td>
+        <td>;</td>
+        <td>'</td>
+        <td>,</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>%</td>
+        <td>^</td>
+        <td>\</td>
+        <td>|</td>
+        <td class="space"></td>
+        <td>:</td>
+        <td>"</td>
+        <td>.</td>
+        <td>+</td>
+    </tr>
+    <tr>
+        <td class="space"></td>
+        <td class="space"></td>
+        <td class="layer">SYM2</td>
+        <td>&</td>
+        <td class="space"></td>
+        <td class="layer">SYM</td>
+        <td> </td>
+        <td class="space"></td>
+        <td class="space"></td>
+    </tr>
+</table>    
+
+<br>
+<br>
+<br>
+
+<h2 class="text_center">SYSTEM LAYER</h2>
+
+<table class="center">
+    <tr>
+        <td>≡</td>
+        <td>↑</td>
+        <td> </td>
+        <td>Shft</td>
+        <td class="space"></td>
+        <td>Ret</td>
+        <td>Tab</td>
+        <td> </td>
+        <td class="layer">SYS</td>
+    </tr>
+    <tr>
+        <td>←</td>
+        <td>↓</td>
+        <td>→</td>
+        <td>Ctrl</td>
+        <td class="space"></td>
+        <td>Caps</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td class="space"></td>
+        <td class="space"></td>
+        <td>Win</td>
+        <td>Alt</td>
+        <td class="space"></td>
+        <td>Alt</td>
+        <td>Win</td>
+        <td class="space"></td>
+        <td class="space"></td>
+    </tr>
+</table>    
+
