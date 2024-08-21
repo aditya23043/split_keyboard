@@ -23,11 +23,12 @@
 - I followed [Joe Scotto's](https://www.youtube.com/@joe_scotto) [video](https://youtu.be/8WXpGTIbxlQ?feature=shared) tutorial on how to design PCB using KiCad and ordered the PCB through [Robu.in](https://robu.in)
 - Gerber File: [Gerber](reversible_20_gerber.zip)
 - PCB: 
+
 ![PCB](imgs/pcb.jpeg)
 
 ### Assembly
 
-- <p style="font-size: 2rem"> [Assembly Video](https://youtu.be/sDFPSLh6BhQ?feature=shared)</p>
+- [Assembly Video](https://youtu.be/sDFPSLh6BhQ?feature=shared)
 ![](imgs/25.jpeg)
 ![](imgs/24.jpeg)
 ![](imgs/23.jpeg)
