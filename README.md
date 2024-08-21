@@ -7,12 +7,7 @@
 - I had observerd various other ergonomic split keyboard designs on [YouTube](https://youtube.com) and [Reddit](https://reddit.com), however, mostly none of those designs were kind of in the intersection of a generic keyboard and an ergonomic keyboard.
 - Hence, I came to the conclusion to design my own split ergonomic keyboard.
 
-![Keyboard Image](imgs/1.jpeg)
-<br>
-<br>
-<p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/1.jpeg" height=300 style="display: block; margin-right: auto; margin-left: auto"></p>
-<br>
-<br>
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/1.jpeg" height=300 style="display: block; margin-right: auto; margin-left: auto"></p><br><br>
 
 ## LOGS
 
@@ -30,6 +25,7 @@
 - PCB: 
 
 ![PCB](imgs/pcb.jpeg)
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/pcb.jpeg" height=300 style="display: block; margin-right: auto; margin-left: auto" desc="PCB"></p><br><br>
 
 ### Assembly ([ASSEMBLY VIDEO](https://youtu.be/sDFPSLh6BhQ?feature=shared))
 
