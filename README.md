@@ -8,11 +8,13 @@
 - Hence, I came to the conclusion to design my own split ergonomic keyboard.
 
 ![Keyboard Image](imgs/1.jpeg)
+<p align="center" style="margin-top=10rem;margin-bottom=10rem;">
 <table>
 <tr><td>
-<p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/1.jpeg" height=300 style="display: block; margin-right: auto; margin-left: auto"></p>
+<img src="imgs/1.jpeg" height=300 style="display: block; margin-right: auto; margin-left: auto">
 </td></tr>
 </table>
+</p>
 
 ## LOGS
 
