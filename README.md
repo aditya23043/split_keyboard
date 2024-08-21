@@ -1,13 +1,13 @@
 # Split Ergonomic 20 Key Keyboard
 > NOTE: This project is still a work in progress
 
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/1.jpeg" height=300 style="display: block; margin-right: auto; margin-left: auto"></p><br><br>
+
 ## MOTIVE
 - To design a HID (human interface device) which resembles a generic qwerty keyboard's functionality in the way that the user has to press buttons in order to get keypresses on the system connected to the keyboard.
 - The differentiating factor I was hoping to get was the decrease in finger movement while typing through the use of combos and layers in order to improve the overall ergonomics in typing.
 - I had observerd various other ergonomic split keyboard designs on [YouTube](https://youtube.com) and [Reddit](https://reddit.com), however, mostly none of those designs were kind of in the intersection of a generic keyboard and an ergonomic keyboard.
 - Hence, I came to the conclusion to design my own split ergonomic keyboard.
-
-<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/1.jpeg" height=300 style="display: block; margin-right: auto; margin-left: auto"></p><br><br>
 
 ## LOGS
 
@@ -31,12 +31,12 @@
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/25.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/24.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/23.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
-<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/26.jpeg" height=650 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/26.jpeg" height=700 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 - Me thinking of adding the SSD1306 oled 0.9 inch display but that idea quickly vanished since I had not planned earlier about the connectivity of the two halves, whether they will be wired or wireless and other stuff like that.
-![](imgs/20.jpeg)
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/20.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 - After soldering the kailh hotswap sockets, I noticed that I had soldered half of them in the opposite direction which blocked the hole in which the switch was supposed to sit flush to the PCB.
-![](imgs/17.jpeg)
-![](imgs/16.jpeg)
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/17.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/16.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 - A lot of progress in between the previous image and this image.
     1. I soldered male to male header pins at the bottom of the right half so that I could connect jumper wires between the two halves and since I was using a single mcu, I directly assigned the left 10 switches to 10 gpio pins on the mcu on the right side
     2. My cheap tenting solution was to put this tommy hilfiger tie combo box (which was further vandalised by me because i wanted to test out this 20 key layout using push buttons before ordering the PCB) in between the two halves in order to achieve the perfect tilt angle
