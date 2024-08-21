@@ -97,6 +97,13 @@ For more information, see the LICENSE file and the GNU General Public License v3
 - As of today, both the halves are connected to the system (PC/laptop/etc..) for power and data (sending keypresses) but once the code is finalized I am thinking of making them wirelessly connect to the system through BLE (bluetooth low energy)
 - Also, as of today, I have implemented the same layout I used before : [Layout](https://aditya23043.github.io/kb_layout/) but I have not implemented the system layer yet
 
+#### Hotswappable Switches Issue
+- The switches I bought (HMX Hyacinth V2U) were a little bit loose when I put them in and out of the hotswappable socket and hence wanted to try other switches if they would stay stuck to the PCB
+- I had desoldered Otemu red switches from my other 60% qwerty keyboard
+- Those switches had a little bit of metal left in the pins while desoldering
+- So, when I put those switches, they were perfect in fit however they made my hotswappable sockets's holes a little bit bigger and now the HMX switches would not stick to the PCB at all. Even a little bit of force would make them fall over from the PCB
+- To combat this, I designed this case [case/switch_plate.stl](case/switch_plate.stl) for the switches to mount to
+
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/28.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/29.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/30.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
