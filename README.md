@@ -33,29 +33,42 @@
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/23.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/26.jpeg" height=700 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 - Me thinking of adding the SSD1306 oled 0.9 inch display but that idea quickly vanished since I had not planned earlier about the connectivity of the two halves, whether they will be wired or wireless and other stuff like that.
+
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/20.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 - After soldering the kailh hotswap sockets, I noticed that I had soldered half of them in the opposite direction which blocked the hole in which the switch was supposed to sit flush to the PCB.
+
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/17.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/16.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 - A lot of progress in between the previous image and this image.
+
     1. I soldered male to male header pins at the bottom of the right half so that I could connect jumper wires between the two halves and since I was using a single mcu, I directly assigned the left 10 switches to 10 gpio pins on the mcu on the right side
+
     2. My cheap tenting solution was to put this tommy hilfiger tie combo box (which was further vandalised by me because i wanted to test out this 20 key layout using push buttons before ordering the PCB) in between the two halves in order to achieve the perfect tilt angle
+
     3. But the current state of the keyboard wasn't doing it for me since I had not properly soldered the header pins and some edge pins were disconnecting. Hence, I went down the wireless route.
+
 - And this was the layout I was using when both the halves were connected : [Layout](https://aditya23043.github.io/kb_layout/)
-![](imgs/15.jpeg)
-![](imgs/14.jpeg)
-![](imgs/12.jpeg)
+
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/15.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/14.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/12.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+
 - Me trying to figure out how to make the layout work when both halves are connected independently to the system
-![](imgs/11.jpeg)
-![](imgs/9.jpeg)
+
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/11.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/9.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+
 - Left Half (Current state as of 25th July, 2024 - 11:30PM)
-![](imgs/6.jpeg)
-![](imgs/5.jpeg)
-![](imgs/4.jpeg)
+
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/6.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/5.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/4.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+
 - Right Half (Current state as of 25th July, 2024 - 11:30PM)
-![](imgs/3.jpeg)
-![](imgs/2.jpeg)
-![](imgs/1_1.jpeg)
+
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/3.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/2.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/1_1.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 
 ## PROBLEMS
 
