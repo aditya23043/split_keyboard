@@ -8,6 +8,7 @@
 - Hence, I came to the conclusion to design my own split ergonomic keyboard.
 
 ![Keyboard Image](imgs/1.jpeg)
+<img src="imgs/1.jpeg" height=100 style="display: block; margin-right: auto; margin-left: auto">
 
 ## LOGS
 
@@ -28,7 +29,7 @@
 
 ### Assembly ([ASSEMBLY VIDEO](https://youtu.be/sDFPSLh6BhQ?feature=shared))
 
-![](imgs/25.jpeg | width=40)
+![](imgs/25.jpeg)
 ![](imgs/24.jpeg)
 ![](imgs/23.jpeg)
 ![](imgs/26.jpeg)
