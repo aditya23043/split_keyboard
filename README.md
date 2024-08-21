@@ -9,11 +9,7 @@
 
 ![Keyboard Image](imgs/1.jpeg)
 <p align="center" style="margin-top=10rem;margin-bottom=10rem;">
-<table>
-<tr><td>
-<img src="imgs/1.jpeg" height=300 style="display: block; margin-right: auto; margin-left: auto">
-</td></tr>
-</table>
+<img src="imgs/1.jpeg" height=300 style="padding: 10rem; display: block; margin-right: auto; margin-left: auto">
 </p>
 
 ## LOGS
