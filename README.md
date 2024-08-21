@@ -24,15 +24,14 @@
 - Gerber File: [Gerber](reversible_20_gerber.zip)
 - PCB: 
 
-![PCB](imgs/pcb.jpeg)
-<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/pcb.jpeg" height=300 style="display: block; margin-right: auto; margin-left: auto" desc="PCB"></p><br><br>
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/pcb.jpeg" height=300 style="display: block; margin-right: auto; margin-left: auto" alt="PCB"></p><br><br>
 
 ### Assembly ([ASSEMBLY VIDEO](https://youtu.be/sDFPSLh6BhQ?feature=shared))
 
-![](imgs/25.jpeg)
-![](imgs/24.jpeg)
-![](imgs/23.jpeg)
-![](imgs/26.jpeg)
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/25.jpeg" height=300 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/24.jpeg" height=300 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/23.jpeg" height=300 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/26.jpeg" height=300 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 - Me thinking of adding the SSD1306 oled 0.9 inch display but that idea quickly vanished since I had not planned earlier about the connectivity of the two halves, whether they will be wired or wireless and other stuff like that.
 ![](imgs/20.jpeg)
 - After soldering the kailh hotswap sockets, I noticed that I had soldered half of them in the opposite direction which blocked the hole in which the switch was supposed to sit flush to the PCB.
