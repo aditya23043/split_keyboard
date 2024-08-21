@@ -1,15 +1,13 @@
 <pre>
-```
 This project is licensed under the GNU General Public License v3 (GPL-3.0).
 
 Original Authors:
 Aditya Gautam
 
 Contributors:
-\-
+-
 
 For more information, see the LICENSE file and the GNU General Public License v3.
-```
 </pre>
 
 # Split Ergonomic 20 Key Keyboard
