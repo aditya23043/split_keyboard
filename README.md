@@ -82,9 +82,23 @@ For more information, see the LICENSE file and the GNU General Public License v3
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/2.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/1_1.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 
-## PROBLEMS
+### PROBLEMS
 
 - Since this was my first custom PCB design, I ordered the first prototype I designed without further testing and thinking, and hence, I am facing problems at the assembly stage regarding core functionalities of the keyboard.
 - Starting out, after the main assembly, I was still conflicted in context of connectivity.
 - Initially, I started out by connecting both the halves
 - As of 27th July, 10:30PM, I am still confused if I want to have a wired board or wireless or semi wireless (the halves are wired up but as a whole they are wirelessly connected to the PC)
+
+### Nearing to Completion
+- I figured, with my current knowledge alongside my research, I am unable to make both the halves of the keyboard to interact with each other wirelessly ALONGSIDE making them communicate with the system (PC/Laptop/etc..) at the same time  (as of 21/08/24 11:20PM)
+- So, I figured I should connect both the halves through wires
+- At the current state, both the halves are connected through 3.5mm TRRS cable
+- Both the halves communicate through I2C (Inter-Integrated Circuit) protocol
+- As of today, both the halves are connected to the system (PC/laptop/etc..) for power and data (sending keypresses) but once the code is finalized I am thinking of making them wirelessly connect to the system through BLE (bluetooth low energy)
+- Also, as of today, I have implemented the same layout I used before : [Layout](https://aditya23043.github.io/kb_layout/) but I have not implemented the system layer yet
+
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/28.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/29.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/30.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/31.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/32.jpeg" height=500 style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
