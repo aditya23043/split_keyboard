@@ -102,7 +102,7 @@ For more information, see the LICENSE file and the GNU General Public License v3
 - I had desoldered Otemu red switches from my other 60% qwerty keyboard
 - Those switches had a little bit of metal left in the pins while desoldering
 - So, when I put those switches, they were perfect in fit however they made my hotswappable sockets's holes a little bit bigger and now the HMX switches would not stick to the PCB at all. Even a little bit of force would make them fall over from the PCB
-- To combat this, I designed this case [case/switch_plate.stl](case/switch_plate.stl) for the switches to mount to
+- To combat this, I designed this case [./prototype_1/case/switch_plate.stl](switch_plate.stl) for the switches to mount to
 
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/case.png" style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/28.jpeg" style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
@@ -110,3 +110,50 @@ For more information, see the LICENSE file and the GNU General Public License v3
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/30.jpeg" style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/31.jpeg" style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/32.jpeg" style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+
+<hr>
+
+## PROTOTYPE VER 2.0
+- It has been some time since the last commit
+- Finished with the 1st prototype
+    - In which I had connected both the halves through wire (I2C) and each of the halves were then connected through USB to the system
+- But due to two mcus and constant data travel, it was a more power consuming contraption
+- And due to the wires, it was a messy prototype
+- So, for this version I "was" ....
+- (yes, "was" because turns out im not that great at thinking ahead of time and documenting it in real time)
+- ... thinking of making both the havles be kept closer to each other and i connect both of them using wire again but not any special protocol to send data from one mcu to another
+- Instead, I'll directly connect all the 10 switched (+1 ground) to the one mcu on one half just like i did in the starting stages of the prototype 1 but less flimsy because I'll be using a proper 3d printed case.
+- So, only one mcu required with no special communication => so less power consumption => longer lasting in terms of battery life => happy end user => YAY
+- Also, all the parts where files were mentioned are now moved to `/prototype_1/`
+
+### CASE
+- No changes in the PCB
+- I will be placing both the PCBs inside one case which makes them a mono-board keyboard functionally so that the wiring doesn't go haywire when actually using the board and also so that I can hide all the messy connections (if any added afterwards) inside the case
+    - Trust me, you do not want to solder 1m of single core copper wire you ordered from amazon and think that it will be portable and perfectly find and won't definitely short the whole board
+- The case comprises of two parts: Switch mount plate + bottom plate
+- And both the parts are held together by M3x6mm countersunk Phillips screws which will be screwed into M3x6mm brass inserts which will be pushed into the switch mount plate using a soldering iron
+- I bought the screws and inserts from https://onlyscrews.in for very cheap as compared to https://amazon.in
+
+> NOTE: Gerber viewer of kicad was a very helpful tool whose measurement tool I used extensively to measure out the distances of different components on my PCB to make a near accurate estimate for my case
+
+### Switch Mount Plate
+- [./prototype_2/mount_plate.stl](mount_plate.stl)
+- The main structure of the case
+- Consists of mount plate + boundary for the case
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="./imgs/2024-10-18_23-31.png" style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="./imgs/2024-10-18_23-37.png" style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+
+### Bottom Plate
+- [./prototype_2/bottom_plate.stl](bottom_plate.stl)
+- Covers the case from the bottom
+- Will have the rubber feet stuck to the bottom for better grip on smooth surfaces
+- Is 3mm in height cus why not? (besides the fact that it will cost more)
+- Has standoffs so that the PCB can rest on those
+- The cylindrical standoffs with different top and bottom radii are fine in context of 3d designing but I am not quite sure about the other cuboidal standoffs since they do not seem to have good structural integrity
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="./imgs/2024-10-18_23-38.png" style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="./imgs/2024-10-18_23-38_1.png" style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+<br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="./imgs/2024-10-18_23-38_2.png" style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
+
+> I am yet to order these 2 parts because I am conflicted between ordering these from https://robu.in which will take more time and cost as compared to using my college's 3d printer which will be available after 29th October, 2024 (today is 18th october btw)\
+> I'll probably wait since just one 1.5mm switch mount plate (just the plate not the boundaries) in my ver 1.0 costed me about 200rs per half (~2.5$)\
+> And both of the above with the minimal configuration (like 15% infill, standard nozzle, black ABS) is showing me about ~1500rs (~18$)
