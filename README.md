@@ -136,13 +136,13 @@ For more information, see the LICENSE file and the GNU General Public License v3
 
 > NOTE: Gerber viewer of kicad was a very helpful tool whose measurement tool I used extensively to measure out the distances of different components on my PCB to make a near accurate estimate for my case
 
-### [./prototype_2/mount_plate.stl](Switch Mount Plate)
+### [Switch Mount Plate](./prototype_2/mount_plate.stl)
 - The main structure of the case
 - Consists of mount plate + boundary for the case
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="./imgs/2024-10-18_23-31.png" style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="./imgs/2024-10-18_23-37.png" style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 
-### [./prototype_2/bottom_plate.stl](Bottom Plate)
+### [Bottom Plate](./prototype_2/bottom_plate.stl)
 - Covers the case from the bottom
 - Will have the rubber feet stuck to the bottom for better grip on smooth surfaces
 - Is 3mm in height cus why not? (besides the fact that it will cost more)
