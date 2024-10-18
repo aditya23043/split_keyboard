@@ -102,7 +102,7 @@ For more information, see the LICENSE file and the GNU General Public License v3
 - I had desoldered Otemu red switches from my other 60% qwerty keyboard
 - Those switches had a little bit of metal left in the pins while desoldering
 - So, when I put those switches, they were perfect in fit however they made my hotswappable sockets's holes a little bit bigger and now the HMX switches would not stick to the PCB at all. Even a little bit of force would make them fall over from the PCB
-- To combat this, I designed this case [./prototype_1/case/switch_plate.stl](switch_plate.stl) for the switches to mount to
+- To combat this, I designed this case [./prototype_1/case/switch_plate.stl](./prototype_1/case/switch_plate.stl) for the switches to mount to
 
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/case.png" style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="imgs/28.jpeg" style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
@@ -137,7 +137,7 @@ For more information, see the LICENSE file and the GNU General Public License v3
 > NOTE: Gerber viewer of kicad was a very helpful tool whose measurement tool I used extensively to measure out the distances of different components on my PCB to make a near accurate estimate for my case
 
 ### Switch Mount Plate
-- [./prototype_2/mount_plate.stl](mount_plate.stl)
+- [./prototype_2/mount_plate.stl](./prototype_2/mount_plate.stl)
 - The main structure of the case
 - Consists of mount plate + boundary for the case
 <br><br><p align="center" style="margin-top=10rem;margin-bottom=10rem;"><img src="./imgs/2024-10-18_23-31.png" style="display: block; margin-right: auto; margin-left: auto" alt=""></p><br><br>
