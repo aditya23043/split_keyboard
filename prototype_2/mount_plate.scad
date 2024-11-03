@@ -308,16 +308,16 @@ difference(){
 				}
 
 				// For passing wires between the 2 halves
-				translate([-15, 33, 0]){
-					cube([15, 15, 8]);
+				translate([-15, 33-5, 0]){
+					cube([15, 25, 8]);
 				}
 			}
 		}
 	}
-	translate([7.5,-3+30,20-6]){
+	translate([7.5,-3+30-10,20-6]){
 		cylinder(h=6,r=1.7);
 	}
-	translate([7.5,84-30,20-6]){
+	translate([7.5,84-30+10,20-6]){
 		cylinder(h=6,r=1.7);
 	}
 }

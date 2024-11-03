@@ -142,10 +142,10 @@ union() {
 				}
 			}
 		}
-		translate([7.5,-3+30,0]){
+		translate([7.5,-3+30-10,0]){
 			cylinder(h=6,r=1.7);
 		}
-		translate([7.5,84-30,0]){
+		translate([7.5,84-30+10,0]){
 			cylinder(h=6,r=1.7);
 		}
 	}
