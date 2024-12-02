@@ -10,7 +10,7 @@ angle = 8;
 gap = 20;
 
 rotate([0,0,20])
-translate([20,0,0]){
+translate([40,0,0]){
     for(i=[0:2]){
         rotate([8*i,angle*0,angle*0]){
             translate([gap*0,i*gap,0]){
@@ -45,10 +45,18 @@ translate([20,0,0]){
     }
 }
 
-rotate([0,0,-20])
-translate([-20,0,0]){
-    mirror([1,0,0]){
+translate([10,0,0])
+for(i=[0:2]){
+    rotate([20,-angle*i+10,10]){
+        translate([gap*i,-20,0]){
+            key();
+        }
+    }
+}
 
+rotate([0,0,-20])
+translate([-40,0,0]){
+    mirror([1,0,0]){
         for(i=[0:2]){
             rotate([8*i,angle*0,angle*0]){
                 translate([gap*0,i*gap,0]){
@@ -79,6 +87,18 @@ translate([-20,0,0]){
                 translate([3*gap,i*gap,0]){
                     key();
                 }
+            }
+        }
+    }
+}
+
+
+translate([-10,0,0])
+mirror([1,0,0]){
+    for(i=[0:2]){
+        rotate([20,-angle*i+10,10]){
+            translate([gap*i,-20,0]){
+                key();
             }
         }
     }
